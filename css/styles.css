@@ -32,11 +32,16 @@ img {
 
 /* === Typography === */
 
+h1,
+.main-content-description,
+.plan-price > p {
+    margin: 0;
+}
+
 h1 {
     font-size: 1.375rem;
     line-height: 1.8rem;
     color: var(--dark-blue);
-    margin: 0;
     margin-bottom: 1rem;
 }
 
@@ -44,26 +49,21 @@ h1 {
     font-size: 0.937rem;
     line-height: 1.56rem;
     color: var(--desaturated-blue);
-    margin: 0;
     margin-bottom: 1.5rem;
 }
 
-
 .plan-price > p {
-    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
 }
 
 .plan-price p:first-child {
     color: var(--dark-blue);
-    font-size: 0.875rem;
-    line-height: 1.125rem;
     font-weight: 900;
     margin-bottom: 3px;
 }
 
 .plan-price p:last-child {
-    font-size: 0.875rem;
-    line-height: 1.125rem;
     font-weight: 500;
     color: var(--desaturated-blue);
 }
@@ -132,7 +132,7 @@ h1 {
 /* === Layout === */
 
 .card {
-    /* min-width: 325px; */ /*  */
+    min-width: 325px; /*  */
     max-width: 450px;
     width: 85%;
     margin: 0 auto;
@@ -154,17 +154,69 @@ h1 {
     display: flex;
     align-items: center;
     padding: 1rem;
-    justify-content: space-between;    
+    justify-content: space-between;  
     border-radius: 11px;
     margin-bottom: 1.5rem;
+}
+
+.annual-plan-col-1 {
+    display: flex;
 }
 
 .plan-price {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    justify-content: center;
+    margin-left: 20px;
 }
 
 
+@media (min-width: 480px) {
 
+    body {
+        background-image: url(../images/pattern-background-desktop.svg);
+    }
 
+    h1 {
+        font-size: 1.75rem;
+        margin-bottom: 1.06rem;
+    }
+
+    .main-content-description {
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .main-content {
+        padding: 2.8rem 3rem 3rem;
+    }
+
+    .annual-plan-box {
+        padding: 1.56rem 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .plan-price > p {
+        font-size: 1rem;
+        line-height: 1.31rem;
+    }
+
+    .plan-price p:first-child {
+        margin-bottom: 6px;
+    }
+
+    .annual-plan-box > a {
+        font-size: 0.875rem;
+    }
+
+    .btn {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (min-width: 800px) {
+    body {
+        padding: 90px 0;
+    }
+}
