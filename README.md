@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution here](https://www.frontendmentor.io/solutions/ordersummarycomponenthtml-and-cssmobile-first-px2pweeLp)
+- Live Site URL: [Site here](https://aldhairescobar.github.io/order-summary-component/)
 
 ## My process
 
@@ -40,6 +40,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Aldhair](https://aldhairescobar.com/)
+- Frontend Mentor - [@aldhairescobar](https://www.frontendmentor.io/profile/aldhairescobar)
+- Twitter - [@aldhairescobar_](https://twitter.com/aldhairescobar_)
